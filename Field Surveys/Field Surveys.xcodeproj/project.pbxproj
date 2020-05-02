@@ -18,6 +18,11 @@
 		4D8010E9245D1F6A00641B81 /* field_observations.json in Resources */ = {isa = PBXBuildFile; fileRef = 4D8010E8245D1F6900641B81 /* field_observations.json */; };
 		4D8010EB245D209A00641B81 /* Classification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8010EA245D209A00641B81 /* Classification.swift */; };
 		4D8010ED245D223600641B81 /* FieldSurvey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8010EC245D223600641B81 /* FieldSurvey.swift */; };
+		4D8010EF245D245E00641B81 /* FieldSurveysJSONParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8010EE245D245E00641B81 /* FieldSurveysJSONParser.swift */; };
+		4D8010F1245D29B200641B81 /* FieldSurveysJSONLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8010F0245D29B200641B81 /* FieldSurveysJSONLoader.swift */; };
+		4D8010F3245D2D1D00641B81 /* FieldSurveysViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8010F2245D2D1D00641B81 /* FieldSurveysViewController.swift */; };
+		4D8010F5245D2D5400641B81 /* FieldSurveyDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8010F4245D2D5400641B81 /* FieldSurveyDetailViewController.swift */; };
+		4D8010F7245D338700641B81 /* FieldSurveyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8010F6245D338700641B81 /* FieldSurveyTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +60,11 @@
 		4D8010E8245D1F6900641B81 /* field_observations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = field_observations.json; sourceTree = "<group>"; };
 		4D8010EA245D209A00641B81 /* Classification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Classification.swift; sourceTree = "<group>"; };
 		4D8010EC245D223600641B81 /* FieldSurvey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldSurvey.swift; sourceTree = "<group>"; };
+		4D8010EE245D245E00641B81 /* FieldSurveysJSONParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldSurveysJSONParser.swift; sourceTree = "<group>"; };
+		4D8010F0245D29B200641B81 /* FieldSurveysJSONLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldSurveysJSONLoader.swift; sourceTree = "<group>"; };
+		4D8010F2245D2D1D00641B81 /* FieldSurveysViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldSurveysViewController.swift; sourceTree = "<group>"; };
+		4D8010F4245D2D5400641B81 /* FieldSurveyDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldSurveyDetailViewController.swift; sourceTree = "<group>"; };
+		4D8010F6245D338700641B81 /* FieldSurveyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldSurveyTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +123,9 @@
 				4D8010C2245D173100641B81 /* LaunchScreen.storyboard */,
 				4D8010C5245D173100641B81 /* Info.plist */,
 				4D8010BD245D172E00641B81 /* Field_Surveys.xcdatamodeld */,
+				4D8010F2245D2D1D00641B81 /* FieldSurveysViewController.swift */,
+				4D8010F4245D2D5400641B81 /* FieldSurveyDetailViewController.swift */,
+				4D8010F6245D338700641B81 /* FieldSurveyTableViewCell.swift */,
 			);
 			path = "Field Surveys";
 			sourceTree = "<group>";
@@ -141,6 +154,8 @@
 				4D8010E8245D1F6900641B81 /* field_observations.json */,
 				4D8010EA245D209A00641B81 /* Classification.swift */,
 				4D8010EC245D223600641B81 /* FieldSurvey.swift */,
+				4D8010EE245D245E00641B81 /* FieldSurveysJSONParser.swift */,
+				4D8010F0245D29B200641B81 /* FieldSurveysJSONLoader.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -279,9 +294,14 @@
 			files = (
 				4D8010ED245D223600641B81 /* FieldSurvey.swift in Sources */,
 				4D8010B5245D172E00641B81 /* AppDelegate.swift in Sources */,
+				4D8010F7245D338700641B81 /* FieldSurveyTableViewCell.swift in Sources */,
+				4D8010F5245D2D5400641B81 /* FieldSurveyDetailViewController.swift in Sources */,
+				4D8010F1245D29B200641B81 /* FieldSurveysJSONLoader.swift in Sources */,
 				4D8010BF245D172E00641B81 /* Field_Surveys.xcdatamodeld in Sources */,
 				4D8010B7245D172E00641B81 /* SceneDelegate.swift in Sources */,
 				4D8010EB245D209A00641B81 /* Classification.swift in Sources */,
+				4D8010F3245D2D1D00641B81 /* FieldSurveysViewController.swift in Sources */,
+				4D8010EF245D245E00641B81 /* FieldSurveysJSONParser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
