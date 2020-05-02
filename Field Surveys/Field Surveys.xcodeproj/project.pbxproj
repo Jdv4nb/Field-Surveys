@@ -15,6 +15,9 @@
 		4D8010C4245D173100641B81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D8010C2245D173100641B81 /* LaunchScreen.storyboard */; };
 		4D8010CF245D173100641B81 /* Field_SurveysTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8010CE245D173100641B81 /* Field_SurveysTests.swift */; };
 		4D8010DA245D173100641B81 /* Field_SurveysUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8010D9245D173100641B81 /* Field_SurveysUITests.swift */; };
+		4D8010E9245D1F6A00641B81 /* field_observations.json in Resources */ = {isa = PBXBuildFile; fileRef = 4D8010E8245D1F6900641B81 /* field_observations.json */; };
+		4D8010EB245D209A00641B81 /* Classification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8010EA245D209A00641B81 /* Classification.swift */; };
+		4D8010ED245D223600641B81 /* FieldSurvey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8010EC245D223600641B81 /* FieldSurvey.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		4D8010D5245D173100641B81 /* Field SurveysUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Field SurveysUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D8010D9245D173100641B81 /* Field_SurveysUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Field_SurveysUITests.swift; sourceTree = "<group>"; };
 		4D8010DB245D173100641B81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D8010E8245D1F6900641B81 /* field_observations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = field_observations.json; sourceTree = "<group>"; };
+		4D8010EA245D209A00641B81 /* Classification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Classification.swift; sourceTree = "<group>"; };
+		4D8010EC245D223600641B81 /* FieldSurvey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldSurvey.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,7 @@
 		4D8010B3245D172E00641B81 /* Field Surveys */ = {
 			isa = PBXGroup;
 			children = (
+				4D8010E7245D1E2900641B81 /* Model */,
 				4D8010B4245D172E00641B81 /* AppDelegate.swift */,
 				4D8010B6245D172E00641B81 /* SceneDelegate.swift */,
 				4D8010BA245D172E00641B81 /* Main.storyboard */,
@@ -126,6 +133,16 @@
 				4D8010DB245D173100641B81 /* Info.plist */,
 			);
 			path = "Field SurveysUITests";
+			sourceTree = "<group>";
+		};
+		4D8010E7245D1E2900641B81 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4D8010E8245D1F6900641B81 /* field_observations.json */,
+				4D8010EA245D209A00641B81 /* Classification.swift */,
+				4D8010EC245D223600641B81 /* FieldSurvey.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D8010C4245D173100641B81 /* LaunchScreen.storyboard in Resources */,
+				4D8010E9245D1F6A00641B81 /* field_observations.json in Resources */,
 				4D8010C1245D173100641B81 /* Assets.xcassets in Resources */,
 				4D8010BC245D172E00641B81 /* Main.storyboard in Resources */,
 			);
@@ -259,9 +277,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D8010ED245D223600641B81 /* FieldSurvey.swift in Sources */,
 				4D8010B5245D172E00641B81 /* AppDelegate.swift in Sources */,
 				4D8010BF245D172E00641B81 /* Field_Surveys.xcdatamodeld in Sources */,
 				4D8010B7245D172E00641B81 /* SceneDelegate.swift in Sources */,
+				4D8010EB245D209A00641B81 /* Classification.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
